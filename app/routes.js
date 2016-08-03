@@ -65,6 +65,8 @@ module.exports = function(app, passport) {
         shield_level: Math.random() * 25 + " percent"
       }
     }, req);
+    res.render('pages/index', { message: req.flash('errorCreated') });
+
   });
 };
 

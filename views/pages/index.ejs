@@ -11,6 +11,10 @@
   <div style="background-color: #eee; margin: 20px; padding: 20px;">
   <h1>Welcome to the Rollbar Demo App</h1>
 
+    <% if (message.length > 0) { %>
+      <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+
   <p>Errors that happen here get reported back to the <a href="https://rollbar.com/demo" target="_blank">Rollbar Demo Project</a>. Click around here with the demo project open in another window or tab and watch the data appear.</p>
 
   <h3>Server-side (Node.js)</h3>
