@@ -1,6 +1,6 @@
 {
   "name": "rollbar-cascadiafest-2016",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Rollbar demo app for CascadiaFest 2016",
   "engines": {
     "node": "5.9.1"
@@ -12,7 +12,20 @@
   "dependencies": {
     "ejs": "2.4.1",
     "express": "4.13.3",
-    "rollbar": "^0.6.2"
+    "rollbar": "^0.6.2",
+    "mongoose" : "3.8.23",
+    "passport" : "~0.1.17",
+    "passport-local" : "~0.1.6",
+    "passport-facebook" : "~1.0.2",
+    "passport-twitter" : "~1.0.2",
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",
+    "bcrypt-nodejs" : "latest",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"
   },
   "repository": {
     "type": "git",
